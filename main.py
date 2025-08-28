@@ -2,9 +2,9 @@ import os
 
 from classes.annotator import Annotator
 
-VIDEO_FILE = 'videos/short clips/ENTRY_16.mp4'
-NUMBER_OF_ELEMENTS = 1
-FRAME_SKIP = 5
+VIDEO_FILE = 'videos/short clips/ENTRY_30.wmv'
+NUMBER_OF_ELEMENTS = 3
+FRAME_SKIP = 30
 OUTPUT_FOLDER = 'output'
 ANNOTATION_WINDOW_WIDTH = 1000
 
