@@ -2,6 +2,8 @@
 
 A python tool for annotating videos with custom labels and timestamps. Designed for researchers and developers who need to tag video content efficiently.
 
+![image](https://github.com/user-attachments/assets/0ae8d2cc-935c-41a1-b661-a15fbfabce91)
+
 ## Features
 
 - Add annotations with timestamps every set number of frames
