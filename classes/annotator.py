@@ -94,7 +94,7 @@ class Annotator:
             for s in range(1, steps):
                 interp = r1 + (r2 - r1) * (s / steps)
                 interp = interp.astype(int)
-                step_rects.append([tuple(interp[0]), tuple(interp[1])])
+                step_rects.append([(int(interp[0][0]), int(interp[0][1])), (int(interp[1][0]), int(interp[1][1]))])
             interpolated.append(step_rects)
         # Transpose to get list of rects per frame
         return [ [interpolated[j][i] for j in range(self.num_elements)] for i in range(steps-1) ]

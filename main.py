@@ -3,7 +3,7 @@ import os
 from classes.annotator import Annotator
 
 VIDEO_FILE = 'videos/short clips/ENTRY_30.wmv'
-NUMBER_OF_ELEMENTS = 3
+NUMBER_OF_ELEMENTS = 2
 FRAME_SKIP = 30
 OUTPUT_FOLDER = 'output'
 ANNOTATION_WINDOW_WIDTH = 1000
